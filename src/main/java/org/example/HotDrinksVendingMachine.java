@@ -1,9 +1,15 @@
 package org.example;
 
+import java.util.Objects;
+import java.util.Scanner;
+
 public class HotDrinksVendingMachine extends VendingMachine{
     @Override
-    public void getProduct(int name, int volume, int temperature) {
-        // логика выбора горячего напитка по имени, объему и температуре
+    public void getProduct(String name, int volume, int temperature) throws InterruptedException {
+
+        System.out.println("Product start to create ");
+        System.out.println("Your order is : " + name );
+        System.out.println("Your order is ready");
     }
 
 }

@@ -2,7 +2,7 @@ package org.example;
 
 public class VendingMachine {
 
-    public void getProduct(int name, int volume, int temperature){
+    public void getProduct(String name, int volume, int temperature) throws InterruptedException {
 
     }
 

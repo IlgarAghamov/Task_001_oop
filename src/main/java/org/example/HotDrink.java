@@ -6,6 +6,9 @@ public class HotDrink {
     String name ;
     int volume ;
 
+    public HotDrink() {
+    }
+
     public HotDrink(String name, int volume) {
         this.name = name;
         this.volume = volume;
@@ -25,5 +28,8 @@ public class HotDrink {
 
     public void setVolume(int volume) {
         this.volume = volume;
+    }
+    public void order (HotDrink hotDrink){
+        System.out.println("Your order is  :" + hotDrink.name + " volume is :"+ hotDrink.volume);
     }
 }
